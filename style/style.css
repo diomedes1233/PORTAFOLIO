@@ -68,7 +68,7 @@ header::before {
 	font-weight: 300;
 }
 nav .enlaces-header a {
-	color: #5d6678;
+	color: #fff;
 	text-decoration: none;
 	margin-left: 20px;
 }
@@ -126,6 +126,7 @@ nav .enlaces-header a:hover {
 	font-weight: bold;
 	margin-top: 14px;
 	color: #f2f2f2;
+	font-size: 18px;
 }
 .contenido-header a {
 	margin: 28px 0 0 0;
@@ -158,7 +159,7 @@ nav .enlaces-header a:hover {
 }
 .articulo {
 	width: 29%;
-	background: #5d6678;
+	background: #000;
 	margin-bottom: 30px;
 	border-radius: 10px;
 	padding: 45px 30px 60px 30px;
@@ -292,7 +293,7 @@ a {
 	background-image: url("../images/pizzas.png");
 }
 .proy6 {
-	background-image: url("../images/combustible.jpg");
+	background-image: url("../images/cronometro.png");
 }
 .child {
 	border-radius: 20px;
@@ -316,7 +317,7 @@ a {
 	margin-bottom: 20px;
 }
 .parent h3 {
-	color: #6e00c8;
+	color: #2570ff;
 	font-weight: 700;
 	margin-bottom: 25px;
 	text-align: center;
@@ -368,7 +369,7 @@ a {
 	margin-bottom: 10px;
 }
 .box-skills i {
-	color: #1fde82;
+	color: #2570ff;
 	font-size: 20px;
 }
 footer {
@@ -399,30 +400,35 @@ footer {
 	margin-bottom: 10px;
 }
 .partFooter a:hover {
-	color: #1fde82;
+	color: #2570ff;
 }
 .partFooter img {
 	width: 70%;
 }
 .social-media a {
-	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	align-content: flex-start;
 	display: inline-block;
-	color: #adb6c7;
-	border: 1px solid #adb6c7;
+	color: #000;
+	border: 1px solid #000;
 	border-radius: 50%;
-	width: 38px;
-	height: 38px;
+	width: 45px;
+	height: 45px;
 	line-height: 36px;
 	cursor: pointer;
 	margin-top: 20px;
 	text-align: center;
 	transition: all ease-in-out 0.3s;
 	margin-right: 5px;
+	padding-top: 5px;
 }
 .social-media a:hover {
 	color: #fff;
-	background: #1fde82;
-	border-color: #1fde82;
+	background: #2570ff;
+	border-color: #2570ff;
 }
 @media screen and (max-width: 1100px) {
 	.titulo {
@@ -438,6 +444,7 @@ footer {
 	}
 	.textos-header {
 		margin: 0;
+		font-size: 18px;
 	}
 
 	.articulo {
