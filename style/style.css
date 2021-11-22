@@ -138,14 +138,14 @@ nav .enlaces-header a:hover {
 .contenido-header p {
 	display: flex;
 	justify-content: center;
-
-	font-weight: bold;
+    font-weight: bold;
 	margin-top: 14px;
 	color: #fff;
 	font-size: 30px;
 	font-weight: 900;
 	border: 1px solid;
 	padding: 10px 10px 20px 30px;
+	border-radius: 10px;
 }
 
 .contenido-header a {
