@@ -109,14 +109,14 @@ nav .enlaces-header a:hover {
 	flex-direction: row;
 	width: 100%;
 	height: 600px;
-	
+
 	justify-content: space-between;
 	align-items: center;
 
 }
 
 /* le damos anomacion a las imagenes */
-.contenido-header> .fondo1 img {
+.contenido-header>.fondo1 img {
 	width: 550px;
 	animation: ease-in animat 3s;
 }
@@ -141,20 +141,20 @@ nav .enlaces-header a:hover {
 }
 
 
-.foto img{
+.foto img {
 	margin-top: 60px;
 	width: 170px;
 	height: 170px;
-	
+
 }
 
-.fondo1{
+.fondo1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 500px;
 	height: 300px;
-	margin-top: -60px;	
+	margin-top: -60px;
 }
 
 .contenido-header p {
@@ -523,7 +523,7 @@ footer {
 
 
 
-.fondo01 img{
+.fondo01 img {
 	width: 400px;
 	height: 260px;
 	border-radius: 20px;
@@ -638,7 +638,7 @@ footer {
 		width: 300px;
 		margin-top: 40px;
 		margin-bottom: 30px;
-		
+
 	}
 
 	.enlaces-header {
@@ -699,29 +699,40 @@ footer {
 		margin-top: -20px;
 		font-size: 10px;
 		
+        margin-left: 20px;
 	}
-       .foto img{
-	    margin-top: 60px;
+
+	.foto img {
+		margin-top: 30px;
 		width: 150px;
 		height: 150px;
 		
 
+
 	}
 
-	.fondo1{
+	.fondo1 {
+		width: 50;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 60%;
+		height: 130px;
+		margin: 30px 30px;
+
+	}
+
+	.fondo1 img {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 180px;
 		height: 130px;
-		margin-bottom: 70px;
-		margin-top: 5px;
-		margin-bottom: 30px;	
+		
 	}
 
 
-
-	.fondo01 img{
+	.fondo01 img {
 		width: 300px;
 		height: 180px;
 		border-radius: 20px;
@@ -737,7 +748,7 @@ footer {
 		height: auto;
 	}
 
-	.results-text{
+	.results-text {
 		margin-top: 100px;
 		margin-bottom: -30px;
 	}
