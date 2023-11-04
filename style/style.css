@@ -365,6 +365,30 @@ a {
 	background-image: url("../images/cronometro.png");
 }
 
+.proy7 {
+	background-image: url("../images/calculadora.png");
+}
+
+.proy8 {
+	background-image: url("../images/gestor-de-areas.png");
+}
+
+.proy9 {
+	background-image: url("../images/encriptador.png");
+}
+
+.proy10 {
+	background-image: url("../images/ahorcado.png");
+}
+
+.proy11 {
+	background-image: url("../images/Formulario.png");
+}
+
+.proy12 {
+	background-image: url("../images/libros-movil.png");
+}
+
 .child {
 	border-radius: 20px;
 	background-size: cover;
